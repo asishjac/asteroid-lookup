@@ -24,7 +24,7 @@ public class AsteroidDetails {
 
     private Double velocityInKilometersPerHour;
 
-    private Double missDistanceInAstronomicalUnit;
+    private Double missDistanceInKilometer;
 
     public String getName() {
         return name;
@@ -106,11 +106,11 @@ public class AsteroidDetails {
         this.velocityInKilometersPerHour = velocityInKilometersPerHour;
     }
 
-    public Double getMissDistanceInAstronomicalUnit() {
-        return missDistanceInAstronomicalUnit;
+    public Double getMissDistanceInKilometer() {
+        return missDistanceInKilometer;
     }
 
-    public void setMissDistanceInAstronomicalUnit(Double missDistanceInAstronomicalUnit) {
-        this.missDistanceInAstronomicalUnit = missDistanceInAstronomicalUnit;
+    public void setMissDistanceInKilometer(Double missDistanceInKilometer) {
+        this.missDistanceInKilometer = missDistanceInKilometer;
     }
 }

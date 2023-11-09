@@ -3,7 +3,7 @@
  */
 package com.harper.asteroids.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+
 import com.harper.asteroids.model.AsteroidDetails;
 import com.harper.asteroids.model.CloseApproachData;
 import com.harper.asteroids.model.Feed;
@@ -16,11 +16,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.io.IOException;
 
 import java.time.LocalDate;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 
@@ -130,9 +128,8 @@ public class AsteroidsAnalyzerService {
             asteroidDetails.setEstimatedDiameterMax(neo.getEstimatedDiameter().getKilometers().getMax());
             asteroidDetails.setEstimatedDiameterMin(neo.getEstimatedDiameter().getKilometers().getMin());
             asteroidDetails.setCloseApproachDateTime(closestPass.get().getCloseApproachDateTime());
-            asteroidDetails.setMissDistanceInAstronomicalUnit(closestPass.get().getMissDistance().getAstronomical());
+            asteroidDetails.setMissDistanceInKilometer(closestPass.get().getMissDistance().getKilometers());
             asteroidDetails.setVelocityInKilometersPerHour(closestPass.get().getRelativeVelocity().getKilometersPerHour());
-
             asteroidDetailsList.add(asteroidDetails);
         }
         return asteroidDetailsList;
