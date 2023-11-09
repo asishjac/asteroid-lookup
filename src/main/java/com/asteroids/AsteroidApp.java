@@ -1,4 +1,4 @@
-package com.harper.asteroids;
+package com.asteroids;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

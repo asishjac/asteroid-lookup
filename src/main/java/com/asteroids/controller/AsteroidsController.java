@@ -1,7 +1,7 @@
-package com.harper.asteroids.controller;
+package com.asteroids.controller;
 
-import com.harper.asteroids.model.AsteroidDetails;
-import com.harper.asteroids.service.AsteroidsAnalyzerService;
+import com.asteroids.service.AsteroidsAnalyzerService;
+import com.asteroids.model.AsteroidDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

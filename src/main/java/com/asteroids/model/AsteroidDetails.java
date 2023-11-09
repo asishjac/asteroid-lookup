@@ -1,4 +1,4 @@
-package com.harper.asteroids.model;
+package com.asteroids.model;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.harper.asteroids.model;
+package com.asteroids.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

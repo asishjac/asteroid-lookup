@@ -1,8 +1,8 @@
-package com.harper.asteroids;
+package com.asteroids;
 
+import com.asteroids.model.NearEarthObject;
+import com.asteroids.util.VicinityComparator;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.harper.asteroids.model.NearEarthObject;
-import com.harper.asteroids.util.VicinityComparator;
 import org.junit.Before;
 import org.junit.Test;
 

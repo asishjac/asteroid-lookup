@@ -1,4 +1,4 @@
-package com.harper.asteroids.util;
+package com.asteroids.util;
 
 import org.springframework.stereotype.Component;
 

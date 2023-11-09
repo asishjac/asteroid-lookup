@@ -1,14 +1,13 @@
-package com.harper.asteroids;
+package com.asteroids;
 
+import com.asteroids.model.NearEarthObject;
+import com.asteroids.service.AsteroidsAnalyzerService;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.harper.asteroids.model.NearEarthObject;
-import com.harper.asteroids.service.AsteroidsAnalyzerService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
 import java.util.List;

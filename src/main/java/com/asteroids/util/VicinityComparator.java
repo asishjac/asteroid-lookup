@@ -1,9 +1,8 @@
-package com.harper.asteroids.util;
+package com.asteroids.util;
 
-import com.harper.asteroids.model.CloseApproachData;
-import com.harper.asteroids.model.Distances;
-import com.harper.asteroids.model.NearEarthObject;
-import com.harper.asteroids.util.DateUtil;
+import com.asteroids.model.CloseApproachData;
+import com.asteroids.model.Distances;
+import com.asteroids.model.NearEarthObject;
 import org.springframework.stereotype.Component;
 
 import java.util.Comparator;
